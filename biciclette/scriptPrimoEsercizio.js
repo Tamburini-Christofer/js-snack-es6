@@ -8,7 +8,7 @@ const biciArray = [
 
         {
         "nome": "Scott Addict RC Ultimate",
-        "p eso": 5.92
+        "peso": 5.92
         },
  
         {
@@ -51,3 +51,6 @@ for (let i in biciArray) {
 }
 //Stampiamo la bici più leggera prendendo il nome e il peso come visto a lezione
 console.log(`La bici più leggera è: ${biciLeggera.nome} con ${biciLeggera.peso} kg`);
+
+//Da ripetere e provare
+// biciArray.forEach((bicicletta) => {if (biciArray.peso < biciLeggera.peso) biciLeggera = biciArray;})
