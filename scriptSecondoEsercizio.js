@@ -36,7 +36,7 @@ const squadreCalcioArray = [
 
      {
         "nome": "Burū Rokku",
-        punti_fatti:  0,
+        "punti_fatti":  0,
         "falli_subiti": 0
     }
 ];
@@ -53,7 +53,7 @@ for (let k in squadreCalcioArray) {
     squadreCalcioArray[k]["falli_subiti"] = Math.floor(Math.random()  * 500);
 }
 
-//Creiamo un nuovo array i cui elementi contengono 
+// Creiamo un nuovo array i cui elementi contengono 
 // solo nomi e falli subiti e stampiamo tutto in console.
 let arrayNomeFalli = [];
 
@@ -66,16 +66,15 @@ for (let i = 0; i < squadreCalcioArray.length; i++) {
 
 console.log(arrayNomeFalli);
 
-// squadreCalcioArray.forEach((squadra, i) => { 
+// squadreCalcioArray.forEach((squadra) => { 
 //     squadra.punti_fatti = Math.floor(Math.random() * 1000);
 //     squadra.falli_subiti = Math.floor(Math.random()  * 500);
 //     console.log(squadreCalcioArray[i]);
 // })
 
-//Da ripetere e provare
-// const arrayNomeFolli = squadreCalcioArray.map((squadra) => ({nome: squadreCalcioArray.nome,falli_subiti: squadreCalcioArray.falli_subiti}))
+// // Da ripetere e provare
 
-// const array = [1, 5, 4, 5, 4]
+// const array = [1, 5, 4, 5, 4];
 // const arrayMoltiplicato = array.map(numero => numero * 2);
 // console.log(arrayMoltiplicato);
 
